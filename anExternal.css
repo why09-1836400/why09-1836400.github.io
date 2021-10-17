@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    float: center;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text {
+      border: 2px dotted;
+      width: 82%
+  }
+  span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  }
+  #rcorner {
+    border-radius: 25px;
+    background: #eaee06;
+    padding: 20px; 
+    width: 80%;
+    height: 180px;  
+  }
