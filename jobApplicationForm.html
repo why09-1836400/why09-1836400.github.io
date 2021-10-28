@@ -25,6 +25,20 @@
 			<label>Repeat password:</label> 
 			<input type="password" name="password_r">
 		</div>
+		<div class="driverlicensefield">
+			<label>Driver License #:</label>
+			<input type="driverlicenseid" name="driverlicenseid">
+		</div>
+		<div class="field">
+			<label>How do you hear about this job application</label> 
+			<select name="sources">
+				<option value="friends">Friends</option>
+				<option value="official website">Official Website</option>
+				<option value="job website">Job Website</option>
+				<option value="school">School</option>
+				<option value="others">Others</option>
+			</select>
+		</div>
 	</fieldset>
 
 	<fieldset>
@@ -34,6 +48,12 @@
 			<input type="text" name="first name">
 			<label>Last Name:</label> 
 			<input type="text" name="last name">
+		</div>
+		<div class="field">
+			<label>What is your gender?</label> 
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="other">Other
 		</div>
 		<div class="field">
 			<label>Street Address:</label> 
@@ -104,6 +124,10 @@
 			<label>ZIP:</label> 
 			<input type="text" name="zip">
 		</div>
+		<div class="field">
+			<label>Describe yourself in a few sentence:</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
 	</fieldset>
 
 	<fieldset id="Availability">
@@ -120,6 +144,15 @@
 				<li><input type="checkbox" name="position_ft" value="fulltime">Full time</li>
 				<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal</li>
 				<li><input type="checkbox" name="position_tp" value="temporary">Temporary</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>If we offer you living, what distance(s) can you accept form company to the apartment (or house) </label>
+			<ul>
+				<li><input type="checkbox" name="distance15" value="15min">15min walking distance</li>
+				<li><input type="checkbox" name="distance30" value="30min">30min walking distance</li>
+				<li><input type="checkbox" name="distance60" value="60min">60min walking distance</li>
+				<li><input type="checkbox" name="distance120" value="120min">120min walking distance</li>
 			</ul>
 		</div>
 		<div class="field">
