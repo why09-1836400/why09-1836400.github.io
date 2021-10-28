@@ -1,0 +1,13 @@
+/* #Account{
+    background-color: grey;
+}
+
+#Availability{
+    background-color: grey;
+} */
+
+body{
+    background-color: rgb(218, 218, 218);
+    font-family:fantasy;
+    border:8px;
+}
